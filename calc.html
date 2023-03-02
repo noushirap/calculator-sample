@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+  <div class="body">
+    <div class="calc">
+        <div class="output">
+            <input type="text" id="screen">
+
+        </div>
+        <div class="button">
+            <div class="first-row">
+                <button class="btn" onclick="Bclick(7)">7</button>
+                <button class="btn"onclick="Bclick(8)">8</button>
+                <button class="btn" onclick="Bclick(9)">9</button>
+                <button class="btn"onclick="Bclick('/')">/</button>
+            </div>
+            <div class="first-row">
+                <button class="btn" onclick="Bclick(4)">4</button>
+                <button class="btn"onclick="Bclick(5)">5</button>
+                <button class="btn" onclick="Bclick(6)">6</button>
+                <button class="btn"onclick="Bclick('*')">*</button>
+            </div>
+           
+            <div class="first-row">
+                <button class="btn" onclick="Bclick(1)">1</button>
+                <button class="btn"onclick="Bclick(2)">2</button>
+                <button class="btn" onclick="Bclick(3)">3</button>
+                <button class="btn"onclick="Bclick('-')">-</button>
+            </div>
+           
+            <div class="first-row">
+                <button class="btn" onclick="Bclick('.')">.</button>
+                <button class="btn"onclick="Bclick(0)">0</button>
+                <button class="btn" onclick="Bclick('+')">+</button>
+                <button class="btn"onclick="Eclick()">=</button>
+            </div>
+           
+            <div class="first-row">
+                <button class="btn" onclick="Bclear()">clear</button> 
+                    <button id="Sbtn" onclick="back()">back space</button>
+               </div>
+  </div>
+</body>
+</html>

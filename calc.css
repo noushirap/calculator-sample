@@ -1,0 +1,28 @@
+.calc{
+    width: 400px;
+    height: 498px;
+    background-color: gray;
+    margin-left: 400px;
+}
+#screen{
+    margin-left: 30px;
+width: 332px;
+height: 56px;
+margin-top: 28px;
+pointer-events:none;
+font-size: 30px;
+text-align: right;
+}
+.btn{
+    height: 50px;
+width: 54px;
+margin-left: 33px;
+margin-top: 20px;
+font-size: 18px;
+}
+#Sbtn{
+    width: 109px;
+    margin: 26px;
+    height: 53px;
+    font-size: 19px;
+  }
